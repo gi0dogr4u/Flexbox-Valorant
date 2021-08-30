@@ -1,0 +1,76 @@
+header {
+    background-color: #000000;
+}
+
+.img-logo {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+ul li {
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    margin: 5px 20px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+ul li:hover {
+    background-color: #B22222;
+    transform:translate(10px)
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*.corpo {
+    background-image: url('img/back1.jpeg');
+}*/
+
+.corpo img {
+    width: 100%;
+}
+
+
+/*.game {
+    background-image: url('img/back1.jpeg');
+    text-align: center;
+    height: 200px;
+    padding: 40px 4%;
+    color: #FFFFFF;
+}
+
+.game h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.game p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}*/
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-items {
+    width: calc(100% /5);
+}
+
+
+
+
